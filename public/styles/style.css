@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://db.onlinewebfonts.com/c/ac85baa379ec5d9b182144f110d625e4?family=CANNET+AGENCY+DEMO");
 
 :root{
     --bg: #0f0c0c;
@@ -26,7 +27,7 @@ nav{
 
 .logo h1{
     color: var(--pink);
-
+    font-family: "CANNET AGENCY DEMO";
 }
 
 .logo{
@@ -74,4 +75,81 @@ a.tavoli{
 a.tavoli:hover{
     
     background-color: rgba(255, 0, 127, .7);
+}
+
+.social{
+    padding-right: 5%;
+}
+
+.social ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.social li{
+    padding: 0 10px;
+    display: inline;
+
+}
+
+.social a{
+    color: white; 
+    transition: all .5s linear; 
+}
+
+.social a:hover{
+    color: var(--pink);
+}
+
+.social i{
+    font-size: 20px;
+}
+
+/* intro */
+
+.intro{
+    height: 90vh;
+    background-image: url(../img/disco.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.glass h1{
+    font-family: "CANNET AGENCY DEMO";
+}
+
+.glass p{
+    width: 300px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.glass button{
+    background-color: var(--pink);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.glass button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
